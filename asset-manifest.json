@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/job-listing-with-filters/static/css/main.c3c1c1c8.chunk.css",
+    "main.js": "/job-listing-with-filters/static/js/main.2c325e8c.chunk.js",
+    "main.js.map": "/job-listing-with-filters/static/js/main.2c325e8c.chunk.js.map",
+    "runtime-main.js": "/job-listing-with-filters/static/js/runtime-main.4ab23c0c.js",
+    "runtime-main.js.map": "/job-listing-with-filters/static/js/runtime-main.4ab23c0c.js.map",
+    "static/js/2.e90562b8.chunk.js": "/job-listing-with-filters/static/js/2.e90562b8.chunk.js",
+    "static/js/2.e90562b8.chunk.js.map": "/job-listing-with-filters/static/js/2.e90562b8.chunk.js.map",
+    "index.html": "/job-listing-with-filters/index.html",
+    "static/css/main.c3c1c1c8.chunk.css.map": "/job-listing-with-filters/static/css/main.c3c1c1c8.chunk.css.map",
+    "static/js/2.e90562b8.chunk.js.LICENSE.txt": "/job-listing-with-filters/static/js/2.e90562b8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/job-listing-with-filters/static/media/the-air-filter-company.9b55f644.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ab23c0c.js",
+    "static/js/2.e90562b8.chunk.js",
+    "static/css/main.c3c1c1c8.chunk.css",
+    "static/js/main.2c325e8c.chunk.js"
+  ]
+}
