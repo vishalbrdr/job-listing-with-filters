@@ -1,0 +1,75 @@
+// ## Colors
+$Primary: hsl(180, 29%, 50%);
+
+$Background: hsl(180, 52%, 96%);
+$Filter-Tablets: hsl(180, 31%, 95%);
+$Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+$Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+
+@import "./logo";
+@import "./filterbar";
+@import "./job";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 1.5rem;
+  background: $Background;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.header {
+  width: 100vw;
+  height: 156px;
+  background: url(./images/bg-header-desktop.svg), $Primary;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.container {
+  width: 75vw;
+  display: grid;
+  grid-gap: 5rem;
+  @media screen and (max-width: 600px) {
+    width: 90vw;
+  }
+}
+.App {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 5rem;
+}
+.jobs {
+  display: grid;
+  grid-gap: 3rem;
+  &.mt-5 {
+    margin-top: 5rem;
+  }
+  @media screen and (max-width: 650px) {
+    grid-gap: 5rem;
+  }
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,45 @@
+.Logo {
+  position: relative;
+  height: 8.8rem;
+  width: 8.8rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 650px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%,-50%) scale(.8);
+  }
+}
+
+[data-img="photosnap"] {
+  background-image: url(./images/photosnap.svg);
+}
+[data-img="account"] {
+  background-image: url(./images/account.svg);
+}
+[data-img="eyecam-co"] {
+  background-image: url(./images/eyecam-co.svg);
+}
+[data-img="insure"] {
+  background-image: url(./images/insure.svg);
+}
+[data-img="loop-studios"] {
+  background-image: url(./images/loop-studios.svg);
+}
+[data-img="manage"] {
+  background-image: url(./images/manage.svg);
+}
+[data-img="myhome"] {
+  background-image: url(./images/myhome.svg);
+}
+[data-img="shortly"] {
+  background-image: url(./images/shortly.svg);
+}
+[data-img="the-air-filter-company"] {
+  background-image: url(./images/the-air-filter-company.svg);
+}
+[data-img="faceit"] {
+  background-image: url(./images/faceit.svg);
+}
