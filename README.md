@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://ibb.co/L92Z0Jn)
+![](https://i.ibb.co/P1f6r9w/vishalbrdr-github-io-job-listing-with-filters.png)
 
 
 ### Links
