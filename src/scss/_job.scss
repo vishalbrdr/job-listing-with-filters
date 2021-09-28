@@ -1,0 +1,111 @@
+.Job {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.5rem 2rem -1rem rgba($color: $Primary, $alpha: 0.3);
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 650px) {
+    position: relative;
+    padding-top: 5rem;
+  }
+  &.featured {
+    position: relative;
+    box-shadow: inset 0.5rem 0 0 0 $Primary,
+      0 1.5rem 2rem -1rem rgba($color: $Primary, $alpha: 0.3);
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   height: 100%;
+    //   width: 0.6rem;
+    //   border-radius: inherit;
+    //   background-color: $Primary;
+    //   left: 0;
+    //   top: 0;
+    // }
+  }
+  .left {
+    display: flex;
+    gap: 2rem;
+  }
+  .info {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  .row-1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    .company-name {
+      color: $Primary;
+    }
+    .new,
+    .featured {
+      display: inline-block;
+      text-transform: uppercase;
+      color: white;
+      padding: 0.5rem 0.8rem;
+      padding-top: 0.8rem;
+      font-size: 1.2rem;
+      border-radius: 5rem;
+    }
+    .new {
+      background-color: $Primary;
+    }
+    .featured {
+      background-color: $Very-Dark-Grayish-Cyan;
+    }
+  }
+  .position {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $Very-Dark-Grayish-Cyan;
+    &:hover {
+      color: $Primary;
+      cursor: pointer;
+    }
+  }
+  .row-3 {
+    // justify-self: flex-end;
+    color: $Dark-Grayish-Cyan;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    .dot {
+      border-radius: 50%;
+      height: 3px;
+      width: 3px;
+      background-color: $Dark-Grayish-Cyan;
+    }
+  }
+  .filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1150px) {
+      border-top: 1px solid $Dark-Grayish-Cyan;
+      padding-top: 2rem;
+    }
+    .btn {
+      color: $Primary;
+      padding: 0.6rem 0.8rem;
+      padding-top: 0.8rem;
+      background-color: $Filter-Tablets;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      &:hover {
+        background-color: $Primary;
+        color: $Filter-Tablets;
+      }
+    }
+  }
+}
