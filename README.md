@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/vishalbrdr/job-listing-with-filters)
+- Live Site URL: [Github pages](https://vishalbrdr.github.io/job-listing-with-filters/)
 
 ## My process
 
@@ -46,5 +46,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@vishalbrdr](https://www.frontendmentor.io/profile/vishalbrdr)
-- Twitter - [@vishal_brdr](https://www.twitter.com/vishal_brdr)
+- Instagram - [@vishal_brdr](https://www.instagram.com/vishal_brdr)
 
